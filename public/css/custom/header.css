@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.main-header{
+    height: 53;
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+/* main category option */
+.category-card {
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s; /* Animation for hover effect */
+    background-color: #fff; /* Card background */
+}
+.category-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.category-card-title {
+    padding: 15px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Hover Effect */
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* product css */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+.combo-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.card-buttons {
+    display: flex;
+    justify-content: space-between; /* Space out the buttons */
+    margin-top: 10px; /* Add space above the buttons */
+}
+.wishlist-icon {
+    position: absolute; /* Position it on the card */
+    top: 10px; /* Distance from top */
+    right: 10px; /* Distance from right */
+    color: white; /* Default color */
+    font-size: 1.5rem; /* Size of the heart icon */
+    cursor: pointer; /* Show a pointer cursor */
+}
+.card {
+    position: relative; /* Make card relative to position the icon */
+}
+.wishlist-icon.active {
+    color: #ff4d4d; /* Color when active (red) */
+}
+
+/* about css */
+.about-section {
+    padding: 50px 0;
+}
+.about-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.about-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* content section */
+.contact-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+.contact-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-media a {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.social-media a:hover {
+    color: #007bff; /* Bootstrap primary color on hover */
+}
